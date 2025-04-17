@@ -39,9 +39,3 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
-    networks:
-      - umfaka_bot
-
-networks:
-  umfaka_bot:
-    external: true
